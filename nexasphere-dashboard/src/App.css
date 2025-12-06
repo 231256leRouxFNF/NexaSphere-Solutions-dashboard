@@ -1,0 +1,17 @@
+.layout {
+  min-height: 480px;
+}
+
+.react-grid-item {
+  transition: transform 180ms ease, width 180ms ease, height 180ms ease;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background: var(--color-accent);
+  border-radius: 12px;
+}
+
+.react-resizable-handle {
+  border-radius: 4px;
+  background: linear-gradient(135deg, transparent 0%, var(--color-accent) 100%);
+}

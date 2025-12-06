@@ -1,0 +1,171 @@
+﻿Project Brief – Multi-Purpose Client Dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Client: NexaSphere Solutions (fictional SaaS consultancy)
+ Developer: Francois le Roux
+ Project: Customizable Multi-Purpose Dashboard
+ Purpose: Provide NexaSphere’s clients with a central hub to manage productivity tools, personal insights, and data widgets in a sleek, modern interface.
+________________
+
+
+Project Objectives
+NexaSphere Solutions has requested the development of a web-based dashboard application to offer their clients a customizable, user-friendly, and secure control center. The dashboard must allow users to:
+1. Personalise their workspace by adding, removing, and rearranging widgets.
+
+2. Access basic functionality as guests, while encouraging account creation for advanced features.
+
+3. Switch between themes (light/dark/custom palettes) to tailor their experience.
+
+4. Access real-time data (e.g., weather, quotes, finance) using free APIs.
+
+________________
+
+
+Deliverables
+1. Landing / Welcome Page
+   * Introduces the product with a clean, modern design.
+
+   * Options to Sign Up / Login or Continue as Guest.
+
+2. Authentication System
+      * Guest access with limited features.
+
+      * Registered users gain access to all widgets and persistent storage.
+
+      * Authentication via Firebase Auth or mock localStorage implementation.
+
+3. Dashboard (Core Application)
+         * Modular widget-based layout (React components).
+
+         * Drag-and-drop grid system (powered by react-grid-layout).
+
+         * Data persistence (localStorage for guests, Firestore for registered users).
+
+         * Responsive design for desktop and mobile.
+
+4. Widget Gallery / Store
+            * Users can browse available widgets and add them to their dashboard.
+
+            * Guest users see some widgets locked with a prompt to sign up.
+
+            * Registered users can access full functionality.
+
+________________
+
+
+Planned Widgets
+               * Basic Widgets (Available to All Users):
+
+                  * Clock & Date
+
+                  * Motivational Quotes (API/static list)
+
+                  * To-Do List
+
+                  * Notes Pad
+
+                     * Advanced Widgets (Registered Users Only):
+
+                        * Weather (OpenWeatherMap API)
+
+                        * Habit Tracker
+
+                        * Calendar / Events
+
+                        * Optional: Pomodoro Timer, Crypto Prices (Coingecko API), News Feed
+
+________________
+
+
+Design & User Experience
+                           * Built with React + TailwindCSS + shadcn/ui for a modern, professional aesthetic.
+
+                           * Framer Motion for smooth transitions and widget animations.
+
+                           * Theming System: Light/Dark modes and optional color palettes.
+
+                           * Responsive Layout: Optimized for desktops, tablets, and mobile devices.
+
+________________
+
+
+Technical Stack
+                              * Frontend: React, TailwindCSS, shadcn/ui
+
+                              * Drag-and-Drop System: react-grid-layout
+
+                              * Authentication & Database: Firebase (free tier)
+
+                              * Data Sources: OpenWeatherMap, Unsplash, Quotes API, Coingecko (all free tiers)
+
+________________
+
+
+Business Value for NexaSphere
+                                 * Provides a multi-purpose, modular dashboard adaptable to different client needs.
+
+                                 * Freemium model simulation: Guest users get value, but are incentivized to register.
+
+                                 * Customization & Theming enhance user satisfaction and engagement.
+
+                                 * Extensible architecture allows future widget development as client needs evolve.
+
+________________
+
+
+Deliverables Timeline
+                                    * Week 1: Project setup, Landing & Auth screens
+
+                                    * Week 2: Core dashboard + drag-and-drop layout
+
+                                    * Week 3: Implementation of basic widgets + theme switcher
+
+                                    * Week 4: Advanced widgets + guest vs registered access
+
+                                    * Week 5: Polishing, testing, and deployment
+
+________________
+
+
+Final Deliverable
+A fully functional, multi-purpose web dashboard that NexaSphere can roll out to its clients, offering both a professional design and scalable feature set to demonstrate their commitment to modern digital solutions.
